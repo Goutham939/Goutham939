@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+    max-width: 1200px;
+}
+#main {
+    display: flex;
+    background-color: #F0F8FF;
+    position: fixed;
+}
+#main .logo-section {
+    flex: 1;
+    
+}
+#main .nav-section {
+    flex: 11;
+}
+#main .list-section {
+    display: flex;
+    color: black;
+}
+#main li {
+    flex: 1;
+    
+    list-style: none;
+    margin: 30px;
+}
+#main1{
+    background-color: #F0F8FF;
+}
+#main1 img{
+    float: right;
+}
+#main1 p{
+    margin: 20px;
+    font-style: italic;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: #2f4744;
+}
+#main1 h1{
+    line-height: 1.5;
+}
+#main1 .para1{
+    font-style:normal;
+    line-height: 2rem;
+}
+#main1 .para1 span{
+    color:#28a745;;
+}
+#main1 .para2 {
+    font-style: normal;
+}
+#main1 .btn{
+    margin: 20px;
+    margin-left: 50px;
+    font-size: 1rem;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    background-color: orangered;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+#main1 small{
+    margin-left: 30px;
+    font-size: 100%;
+    font-weight: 400;
+}
+#main2 h1{
+    margin-top: 80px;
+    text-align: center;
+}
+#main2 .points li{
+    margin-top: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    
+    font-size: 20px;
+    color: #2f4744;
+}
+#main2 strong{
+    margin-left: 350px;
+    font-size: 20px;
+}
+#main2 .points1 li{
+    margin-top: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+#main3 h2{
+    margin-top: 100px;
+    text-align: center;
+}
+#main3 h2 span{
+    color:#28a745;
+}
+#main4 p{
+    text-align: center;
+    margin-top: 100px;
+    color: #2f4744 ;
+    font-size: 20px;
+}
+#main4 h1{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 2.5rem;
+}
+#main4 h1 .p{
+    color:#28a745;
+}
+#main4 h1 span{
+    color: navy;
+}
+#main4 .para1{
+    line-height: 2rem;
+    font-size: 20px;
+}
+#main4 h3{
+    margin-top: 80px;
+    text-align: center;
+}
+#main4 .p1{
+    line-height: 2rem;
+}
+#main4 .btn1{
+    text-align: center;
+    margin: 30px;
+    margin-left: 500px;
+    width: 200px;
+    height: 50px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#main4 h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#main5 h2{
+    text-align: center;
+    margin-top: 90px;
+}
+#main5 .gridparent{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+}
+#main5 .gridparent .child1 i{
+    margin: 20px;
+    margin-left: 180px;
+}
+#main5 .gridparent .child1 h3{
+    text-align: center;
+    margin: 10px;
+}
+#main5 .gridparent .child1 p{
+    text-align: center;
+}
+#main5 .gridparent .child2 i{
+    margin: 20px;
+    margin-left: 180px;
+}
+#main5 .gridparent .child2 h3{
+    text-align: center;
+    margin: 10px;
+}
+#main5 .gridparent .child2 p{
+    text-align: center;
+}
+#main5 .gridparent .child3 i{
+    margin: 20px;
+    margin-left: 180px;
+}
+#main5 .gridparent .child3 h3{
+    text-align: center;
+    margin: 10px;
+}
+#main5 .gridparent .child3 p{
+    text-align: center;
+}
+#main5 .gridparent1{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+}
+#main5 .gridparent1 .child1 i{
+    margin: 20px;
+    margin-left: 180px;
+}
+#main5 .gridparent1 .child1 h3{
+    text-align: center;
+    margin: 10px;
+}
+#main5 .gridparent1 .child1 p{
+    text-align: center;
+}
+#main5 .gridparent1 .child2 i{
+    margin: 20px;
+    margin-left: 180px;
+}
+#main5 .gridparent1 .child2 h3{
+    text-align: center;
+    margin: 10px;
+}
+#main5 .gridparent1 .child2 p{
+    text-align: center;
+}
+#main5 .gridparent1 .child3 i{
+    margin: 20px;
+    margin-left: 180px;
+}
+#main5 .gridparent1 .child3 h3{
+    text-align: center;
+    margin: 10px;
+}
+#main5 .gridparent1 .child3 p{
+    text-align: center;
+}
+#main5 .gridparent2 {
+    display: grid;
+    grid-template-columns: repeat(2,600px);
+}
+#main5 .gridparent2 .child1 i{
+    margin: 40px;
+    margin-left: 275px;
+}
+#main5 .gridparent2 .child1 h3{
+    text-align: center;
+    margin: 10px;
+}
+#main5 .gridparent2 .child1 p{
+    text-align: center;
+}
+#main5 .gridparent2 .child2 i{
+    margin: 40px;
+    margin-left: 275px;
+}
+#main5 .gridparent2 .child2 h3{
+    text-align: center;
+    margin: 10px;
+}
+#main5 .gridparent2 .child2 p{
+    text-align: center;
+}
+#main5 p{
+    margin: 50px;
+    text-align: center;
+    color: #2f4744 ;
+    font-size: 20px;
+}
+#main5 .btn1{
+    margin-left: 525px; 
+    width: 150px;
+    height: 40px;
+    background-color: orangered;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
+#main5 h4{
+    margin: 10px;
+    text-align: center;
+}
+#main6{
+    display: grid;
+    padding: 20px;
+    gap:50px;
+    text-align: center;
+    background-color:gainsboro;
+    
+    }
+    .id5class1{
+        grid-column: 1/2;
+        background-color:bisque;
+    }   
+    
+    .id5class2{
+        grid-column: 2/3;
+        background-color:bisque ;
+    }
+    .id5class3{
+        grid-column: 3/4;
+        background-color:bisque;
+    }
+    .id5class4{
+        position: relative;
+        left:200px;
+        background-color:bisque;
+    
+    }
+    .id5class5{
+        position: relative;
+        left:350px;
+        background-color:bisque;
+    }
+    #id6{
+        padding: 100px;
+    }
+    #id7{
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        gap:20px;
+    }
+    
+    .imagea{
+        width:180px;
+        height: 180px;
+    }
